@@ -32,22 +32,3 @@ correlation_matrix = iris.corr()
 sns.heatmap(correlation_matrix,annot = True,cmap = "coolwarm")
 plt.title("Correction heatmap of Iris Dataset")
 plt.show()
-
-
-
-"""**Machin learning**
-
-1.Training the data
-2.Testing the data
-3.
-
-import seaborn as sns
-import matplotlib.pyplot as plt
-tips=sns.load_dataset("tips")
-sns.violinplot(x="day",y="total_bill",data=tips)
-plt.title("Distribution of  Total Bill by day")
-plt.xlabel("Day of the week")
-plt.ylabel("Total Bills")
-plt.show()
-tips.head(20)
-"""
